@@ -219,7 +219,6 @@
       preloader.remove()
     });
   }
-
   /**
    * Initiate Pure Counter 
    */

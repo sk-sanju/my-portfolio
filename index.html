@@ -24,7 +24,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-image: url(assets/img/footer-galaxy.jpg);">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -192,7 +192,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/footer-galaxy.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -285,6 +285,7 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <div class="spotlight"></div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -295,6 +296,28 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!--
+  <script type="text/javascript">
+const cursor = document.querySelector(".spotlight");
+var timeout;
+document.addEventListener("mousemove", (e)=> {
+  let x = e.pageX;
+  let y = e.pageY;
+  cursor.style.top = y + "px";
+  cursor.style.left = x +"px";
+  cursor.style.display = "block";
+
+  function mouseStopped(){
+    cursor.style.display = "none";
+  }
+  clearTimeout(timeout);
+  timeout = setTimeout(mouseStopped, 1000);
+});
+
+document.addEventListener("mouseout", ()=>{
+  cursor.style.display = "none";
+})
+  </script> -->
 
 </body>
 
