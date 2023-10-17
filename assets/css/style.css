@@ -228,7 +228,9 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #6968682d;
+  background-color: #69686813;
+  border-style: solid;
+  border-color: #52515171;
   margin-bottom: 3rem;
   border-radius: 90px;
   z-index: 2;
@@ -894,9 +896,11 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #6968682d;
+  background-color: #69686813;
+  border-style: solid;
+  border-color: #52515171;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin-bottom: 3rem;
   text-align: center;
 }
