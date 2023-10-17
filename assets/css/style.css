@@ -1,6 +1,8 @@
 body {
   background-color: rgba(7, 7, 72, 0.712);
-  color: #ffffff;
+  color: #666667;
+  scroll-behavior: smooth;
+
 }
 
 .spotlight {
@@ -197,7 +199,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #cebfde;
+  background-color: #650dc2;
   margin: 0 auto;
 }
 
@@ -215,7 +217,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #000000;
+  background-color: #5f0ac6;
   width: 100px;
   bottom: -12px;
 }
@@ -879,7 +881,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #5b2ba9;
+  color: #fff;
 }
 
 .skill-mf .progress {
@@ -939,7 +941,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #7016d7;
+  color: #666667;
 }
 /*--------------------------------------------------------------
 # Contact
