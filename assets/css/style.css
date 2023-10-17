@@ -972,7 +972,7 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #ffffff;
+  color: #6d31ce;
   padding: 25px 0;
   background: #0000002d;
 }
@@ -986,5 +986,5 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #ffffff;
+  color: #6d31ce;
 }
