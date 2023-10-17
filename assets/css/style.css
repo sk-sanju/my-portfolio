@@ -3,16 +3,16 @@ body {
   color: #ffffff;
 }
 
-/* .spotlight {
+.spotlight {
   z-index: 999;
-  position: fixed;
+  position: absolute;
   width: 20px;
   height: 20px;
   border-radius: 50%;
   box-shadow: 0 0 20px #2696e8,0 0 60px #2696e8,0 0 100px #2696e8;
   pointer-events: none;
   background: #2696e8;
-  animation: colors 5s infinite;
+  animation: colors 2s infinite;
   transform: translate(-50%, -50%);
   display: none;
 }
@@ -34,7 +34,7 @@ body {
   opacity: 0.2;
   transform: translate(-30%, -30%);
   border-radius: 50%;
-} */
+}
 
 h1,
 h2,
@@ -228,7 +228,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #29282838;
+  background-color: #6968682d;
   margin-bottom: 3rem;
   border-radius: 90px;
   z-index: 2;
@@ -894,7 +894,7 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #29282838;
+  background-color: #6968682d;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
