@@ -12,7 +12,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/main-logo.png" rel="main-logo-icon">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,10 +51,9 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="hero-title mb-4">HI, I am SANJAY</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="DESIGNER, DEVELOPER"></span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          <p class="hero-subtitle"><span class="typed" data-typed-items="SOFTWARE ENGINEER, DEVELOPER"></span></p>
+          <p class="pt-3"><a class="btn btn-outline-primary btn js-scroll px-4 button-rouded" href="#about" role="button">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -73,7 +72,7 @@
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                        <img src="assets/img/my-image.jpg" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
@@ -86,14 +85,12 @@
                     </div>
                   </div>
                   <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML 5</span>
+                    <p class="title-s">Skills</p>
+                    <span>HTML 5/CSS3</span>
                     <hr>
-                    <span>CSS3</span>
+                    <span>Bootstrap 5</span>
                     <hr>
-                    <span>bootstrap 5</span>
-                    <hr>
-                    <span>JAVASCRIPT</span>
+                    <span>javaScript</span>
                     <hr>
                     <span>Git & Github</span>
                     <hr>
@@ -101,8 +98,7 @@
                     <hr>
                     <span>Django</span>
                     <hr>
-                    <span>PostgreSQL</span>
-                    <hr>
+                    <span>MySQL</span>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -152,9 +148,9 @@
                 <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">Backend Development</h2>
                 <p class="s-description text-center">
-                  Web design is the process of creating visually appealing and functional layouts for websites, focusing on aesthetics and user experience.
+                  Backend Development is responsible for handling data storage, application logic, and processing tasks that are not directly related to the user interface.
                 </p>
               </div>
             </div>
@@ -276,7 +272,7 @@
                         I'm excited to explore new opportunities and collaborate on innovative front-end development projects. If you're interested in working together or have any questions, please don't hesitate to reach out. You can contact me via:
                       </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span><span style="color: #fff;"> Kuthampully Theruvu, Kuthampully(PO), Thiruvilwamala, Thrissur(DT), Kerala, India, 680594</span></li>
+                        <li><span class="bi bi-geo-alt"></span><span style="color: #fff;"> 221/Amman Kovil St., Kuthampully(PO), Thiruvilwamala, Thrissur(DT), Kerala, IND, 680594</span></li>
                         <li><span class="bi bi-phone"></span><span style="color: #fff;"> +91 9539251789</span></li>
                         <li><span class="bi bi-envelope"></span><span style="color: #fff;">sanjayskpy1@gmail.com</span></li>
                       </ul>
@@ -308,7 +304,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>SK Sanju</strong>. All Rights Reserved</p>
+            <a href="index.html" class="copyright">&copy; Copyright <strong>SK Sanju</strong>. All Rights Reserved</a>
           </div>
         </div>
       </div>
@@ -325,32 +321,11 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <script type="text/javascript">
-const cursor = document.querySelector(".spotlight");
-var timeout;
-document.addEventListener("mousemove", (e)=> {
-  let x = e.pageX;
-  let y = e.pageY;
-  cursor.style.top = y + "px";
-  cursor.style.left = x +"px";
-  cursor.style.display = "block";
-
-  function mouseStopped(){
-    cursor.style.display = "none";
-  }
-  clearTimeout(timeout);
-  timeout = setTimeout(mouseStopped, 1000);
-});
-
-document.addEventListener("mouseout", ()=>{
-  cursor.style.display = "none";
-})
-  </script>
+  <!-- Spotlight JS -->
+  <script src="assets\js\spotlight.js"></script>
 
 </body>
 
