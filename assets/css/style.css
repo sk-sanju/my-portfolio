@@ -1,8 +1,7 @@
 body {
-  background-color: rgba(7, 7, 72, 0.712);
-  color: #666667;
+  background-color: #000000;
+  color: #9d9da0;
   scroll-behavior: smooth;
-
 }
 
 .reveal {
@@ -512,10 +511,6 @@ a:hover {
   color: #6b2bbe;
 }
 
-#header .logo img {
-  max-height: 40px;
-}
-
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
@@ -789,13 +784,12 @@ a:hover {
 }
 
 .hero .hero-content {
-  text-align: center;
+  text-align: left;
   position: absolute;
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.555);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0px;
   padding: 0;
@@ -951,7 +945,7 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #666667;
+  color: #9d9da0;
 }
 /*--------------------------------------------------------------
 # Contact
