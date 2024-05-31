@@ -2,6 +2,8 @@ body {
   background-color: #000000;
   color: #9d9da0;
   scroll-behavior: smooth;
+  background-image: url(assets/img/footer-galaxy.jpg);
+  font-family: cursive;
 }
 
 .reveal {
@@ -802,6 +804,7 @@ a:hover {
   color: #ffffff;
   font-weight: 600;
   font-size: 3rem;
+  
 }
 
 @media (min-width: 768px) {
@@ -911,6 +914,24 @@ a:hover {
   border-radius: 2rem;
   margin-bottom: 3rem;
   text-align: center;
+}
+#services, #projects, #about{
+  -webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000);
+  
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  
+  display: flex;
+  gap: var(--size-10);
+  align-items: start;
+  padding: var(--size-10);
+}
+#services > div {
+  block-size: var(--size-15);
+  aspect-ratio: var(--ratio-square);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-3);
+  box-shadow: var(--shadow-4);
 }
 
 .service-box:hover .ico-circle {
