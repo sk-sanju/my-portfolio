@@ -1,6 +1,6 @@
 body {
   background-color: #000000;
-  color: #9d9da0;
+  color: #c2c2c27a;
   scroll-behavior: smooth;
   font-family: cursive;
 }
@@ -16,14 +16,14 @@ body {
 }
 
 .spotlight {
-  z-index: 999;
+  z-index: 800;
   position: absolute;
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  box-shadow: 0 0 20px #2696e8,0 0 60px #2696e8,0 0 100px #2696e8;
+  border-radius: 40%;
+  box-shadow: 0 0 20px #2fa84d,0 0 60px #2fa84d,0 0 100px #2fa84d;
   pointer-events: none;
-  background: #2696e8;
+  background: #2fa84d;
   animation: colors 2s infinite;
   transform: translate(-50%, -50%);
   display: none;
@@ -40,7 +40,7 @@ body {
 .spotlight::before{
   content: '';
   position: absolute;
-  background: #2696e8;
+  background: #2fa84d;
   height: 50px;
   width: 50px;
   opacity: 0.2;
@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: #9d00ff;
+  color: #2fa84d;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -75,11 +75,11 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #8c00ff;
+  color: #2fa84d;
 }
 
 .color-d {
-  color: #8a04ff;
+  color: #2fa84d;
 }
 
 .color-text-a {
@@ -98,7 +98,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #8d00f9;
+  box-shadow: 0 0 0 4px #2fa84d;
 }
 
 .display-5 {
@@ -185,7 +185,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #9a03f8;
+  color: #2fa84d;
   font-size: 1.1rem;
 }
 
@@ -209,7 +209,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #650dc2;
+  background-color: #2fa84d;
   margin: 0 auto;
 }
 
@@ -227,7 +227,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #5f0ac6;
+  background-color: #2fa84d;
   width: 100px;
   bottom: -12px;
 }
@@ -257,7 +257,8 @@ a:hover {
 
 /*------/ Socials /------*/
 .socials {
-  padding: 1.5rem 0;
+  padding-left: 2rem 0;
+
 }
 
 .socials ul li {
@@ -271,12 +272,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #9000ff;
+  box-shadow: 0 0 0 3px #2fa84d;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #650bd3;
+  background-color: #2fa84d;
   color: #000000;
   box-shadow: 0 0 0 3px #000000;
   transition: all 500ms ease;
@@ -300,7 +301,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #8800ff;
+  color: #2fa84d;
   margin-right: 10px;
 }
 
@@ -313,7 +314,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #7700ff;
+  box-shadow: 0 0 0 10px #2fa84d;
   display: block;
 }
 
@@ -339,11 +340,11 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #6800e6;
+  background-color: #2fa84d;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #920cc3;
+  background-color: #2fa84d;
   width: 25px;
 }
 
@@ -358,7 +359,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #8718dc;
+  background-color: #2fa84d;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -382,7 +383,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #6b12d0;
+  background: #2fa84d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -396,7 +397,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #6600da;
+  background: #2fa84d;
   color: #000000;
 }
 
@@ -423,7 +424,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #000000;
-  border-top: 6px solid #7b00ff;
+  border-top: 6px solid #2fa84d;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -436,7 +437,7 @@ a:hover {
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }
 
@@ -461,23 +462,26 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #6600d3;
+  background-color: #2fa84d;
   color: #000000;
   transition: all 500ms ease;
 }
 
 .button-a {
   text-decoration: none;
-  background-color: #6a26c3;
+  background-color: #2fa84d;
   color: #000000;
   border-color: #000000;
 }
 
 .button-big {
   padding: 0.9rem 2.3rem;
-  color: #6d31ce;
-  border-color: #6d31ce;
+  color: #ffffff;
+  border-color: #2fa84d;
   font-size: 1.2rem;
+}
+.button-big:hover{
+  color: #ffffff;
 }
 
 .button-rouded {
@@ -509,11 +513,11 @@ a:hover {
 }
 
 #header .logo a {
-  color: #6b2bbe;
+  color: #2fa84d;
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background-color: #000000;
   padding: 12px 0;
 }
 
@@ -549,7 +553,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #7e00ed;
+  color: #2fa84d;
   font-size: 16px;
   font-weight: 600;
   padding: 0;
@@ -575,7 +579,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #9600f9;
+  background-color: #2fa84d;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -591,7 +595,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #aa00ff;
+  color: #2fa84d;
 }
 
 .navbar .dropdown ul {
@@ -604,7 +608,7 @@ a:hover {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #000000;
+  background: #2fa84d7a;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -627,7 +631,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #6825c6;
+  color: #2fa84d;
 }
 
 .navbar .dropdown:hover>ul {
@@ -663,7 +667,7 @@ a:hover {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #8515e0;
+  color: #2fa84d;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -726,7 +730,7 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #7b0cdc;
+  color: #2fa84d;
 }
 
 .navbar-mobile a:hover,
@@ -767,7 +771,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #8b37d4;
+  color: #2fa84d;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -781,7 +785,6 @@ a:hover {
   height: 100vh;
   position: -webkit-sticky;
   color: #ffffff;
-  background-image: url(assets\img\main_bg.jpg)
 }
 
 .hero .hero-content {
@@ -797,7 +800,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.9;
-  background-image: url(assets\img\main_bg.jpg)
+
 }
 
 .hero .hero-title {
@@ -814,6 +817,7 @@ a:hover {
 }
 
 .hero .hero-subtitle {
+  color: #2fa84d;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -853,15 +857,15 @@ a:hover {
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: #6d33c4;
+  color: #2fa84d;
 }
 
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #5e47c7;
+  color: #2fa84d;
 }
 
 .hero-single .breadcrumb a {
-  color: #773fc6;
+  color: #2fa84d;
 }
 
 /*--------------------------------------------------------------
@@ -907,15 +911,16 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #69686813;
+  background-color: #2fa84d0f;
   border-style: solid;
-  border-color: #52515171;
+  border-color: #3b6b47;
   padding: 2.5rem 1.3rem;
   border-radius: 2rem;
   margin-bottom: 3rem;
   text-align: center;
 }
-#services, #projects, #about{
+/* Box left-right end blur */
+/*#services, #projects, #about{
   -webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000);
   
   overflow-x: auto;
@@ -932,18 +937,18 @@ a:hover {
   background-color: var(--surface-2);
   border-radius: var(--radius-3);
   box-shadow: var(--shadow-4);
-}
+}*/
 
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #8400ff;
-  background-color: #6c15c9;
-  box-shadow: 0 0 0 10px #000000;
+  color: #2fa84d;
+  background-color: #2fa84d;
+  box-shadow: 0 0 0 10px #2fa84d00;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #5903e4;
+  color: #2fa84d;
 }
 
 .service-box .ico-circle {
@@ -999,19 +1004,38 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #6d31ce;
+  color: #2fa84d;
   padding: 25px 0;
-  background: #0000002d;
+  background-color: #000000;
+  height: fit-content;
 }
 
-footer .copyright {
-  margin-bottom: 0.3rem;
+
+footer.condainer{
+  align-content: space-around;
 }
 
-footer .credits {
-  margin-bottom: 0;
+.sign{
+  text-align: start;
+  padding-left: 4rem;
+  float: left;
 }
 
-footer .credits a {
-  color: #6d31ce;
+.quick-links{
+  float: left;
+  margin-bottom: 3rem;
+  padding-bottom: 0;
+}
+.quick{
+  float: left;
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+
+.copyright{
+  margin: 0;
+  text-align: end;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
 }
