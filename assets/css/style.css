@@ -2,7 +2,6 @@ body {
   background-color: #000000;
   color: #9d9da0;
   scroll-behavior: smooth;
-  background-image: url(assets/img/footer-galaxy.jpg);
   font-family: cursive;
 }
 
@@ -782,7 +781,7 @@ a:hover {
   height: 100vh;
   position: -webkit-sticky;
   color: #ffffff;
-  background-image: url(assets/img/bg.jpg)
+  background-image: url(assets\img\main_bg.jpg)
 }
 
 .hero .hero-content {
@@ -798,6 +797,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.9;
+  background-image: url(assets\img\main_bg.jpg)
 }
 
 .hero .hero-title {
