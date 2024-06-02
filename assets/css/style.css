@@ -2,7 +2,7 @@ body {
   background-color: #000000;
   color: #c2c2c27a;
   scroll-behavior: smooth;
-  font-family: cursive;
+  font-family: sans-serif, cursive;
 }
 
 .reveal {
@@ -258,7 +258,7 @@ a:hover {
 /*------/ Socials /------*/
 .socials {
   padding-left: 2rem 0;
-
+  padding-top: 2rem;
 }
 
 .socials ul li {
@@ -1004,38 +1004,13 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #2fa84d;
+  color: #25b84add;
   padding: 25px 0;
-  background-color: #000000;
+  background-color: #00000000;
   height: fit-content;
-}
-
-
-footer.condainer{
-  align-content: space-around;
-}
-
-.sign{
-  text-align: start;
-  padding-left: 4rem;
-  float: left;
-}
-
-.quick-links{
-  float: left;
-  margin-bottom: 3rem;
-  padding-bottom: 0;
-}
-.quick{
-  float: left;
-  list-style-type: none;
-  padding-bottom: 1rem;
 }
 
 .copyright{
   margin: 0;
-  text-align: end;
-  bottom: 0;
-  width: 100%;
-  padding: 10px 0;
+  color: #2fa84d;
 }
