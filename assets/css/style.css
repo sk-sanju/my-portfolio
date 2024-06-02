@@ -2,7 +2,7 @@ body {
   background-color: #000000;
   color: #c2c2c27a;
   scroll-behavior: smooth;
-  font-family: sans-serif, cursive;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .reveal {
@@ -1004,7 +1004,7 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #25b84add;
+  color: #25b84d;
   padding: 25px 0;
   background-color: #00000000;
   height: fit-content;
@@ -1012,5 +1012,5 @@ footer {
 
 .copyright{
   margin: 0;
-  color: #2fa84d;
+  color:#2fa84d
 }
