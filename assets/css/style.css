@@ -92,7 +92,7 @@ a:hover {
 .work-box,
 .service-box,
 .paralax-mf {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.05);
 }
 
 .box-shadow-a,
@@ -134,11 +134,11 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #00000011;
+  background-color: #00000000;
 }
 .resume{
   border-radius: 90px 90px;
-  background: #00000000;
+  background: #0000000f;
   border: none;
   height: 30px;
   
@@ -242,7 +242,7 @@ a:hover {
   position: relative;
   background-color: #69686813;
   border-style: solid;
-  border-color: #52515171;
+  border-color: #52515169;
   margin-bottom: 3rem;
   border-radius: 90px;
   z-index: 2;
@@ -817,7 +817,7 @@ a:hover {
 }
 
 .hero .hero-subtitle {
-  color: #2fa84d;
+  color: #25b84d;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -895,25 +895,13 @@ a:hover {
   color: #fff;
 }
 
-.skill-mf .progress {
-  background-color: #323131;
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #2c2c2c;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #2fa84d0f;
+  background-color: #ffffff0c;
   border-style: solid;
-  border-color: #3b6b47;
+  border-color: #9d9da02c;
   padding: 2.5rem 1.3rem;
   border-radius: 2rem;
   margin-bottom: 3rem;
