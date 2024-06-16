@@ -1,8 +1,17 @@
 body {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
   background-color: #000000;
   color: #c2c2c27a;
   scroll-behavior: smooth;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main,footer{
+  background: fixed;
 }
 
 .reveal {
