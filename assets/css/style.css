@@ -521,7 +521,7 @@ a:hover {
   letter-spacing: 1px;
 }
 
-#header .logo a {
+#header .logo{
   color: #2fa84d;
 }
 
