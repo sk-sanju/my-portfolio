@@ -1,0 +1,15 @@
+# Core
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+psycopg2-binary>=2.9.5
+
+# Env Variables
+python-decouple>=3.8
+
+# Optional
+Pillow>=10.0.0
+django-cors-headers>=4.0.0
+
+# Async task support (Optional, for future AI heavy tasks)
+celery>=5.3.0
+redis>=5.0.0
