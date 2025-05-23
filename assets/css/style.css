@@ -491,6 +491,7 @@ a:hover {
 }
 .button-big:hover{
   color: #ffffff;
+  transform: rotate(5deg);
 }
 
 .button-rouded {
@@ -936,12 +937,26 @@ a:hover {
   box-shadow: var(--shadow-4);
 }*/
 
+/* Add this keyframes animation */
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply animation on hover */
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #2fa84d;
-  background-color: #2fa84d;
+  background-color: #2fa84d00;
   box-shadow: 0 0 0 10px #2fa84d00;
+
+  animation: rotateIcon 2s linear infinite; /* Continuous rotation */
 }
+
 
 .service-box .service-ico {
   margin-bottom: 1rem;
